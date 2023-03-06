@@ -1,0 +1,7 @@
+Robert
+Marius
+Cristian
+Bitdefender
+Microsoft
+Angajati la Bitdefender: [Robert]
+Angajati la Microsoft: [Marius, Cristian]
