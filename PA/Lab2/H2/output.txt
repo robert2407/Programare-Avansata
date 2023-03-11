@@ -1,0 +1,17 @@
+Distanta este suficient de mare: 9.219544457292887
+Drumul de la A Bucuresti la B Iasi nu este suficient de lung: 5.0 < 9.219544457292887
+Distanta este suficient de mare: 0.0
+Locatia s-a adaugat
+Locatia s-a adaugat
+Drumul s-a adaugat
+Drumul s-a adaugat
+Drumul s-a adaugat
+Drumul exista deja
+true
+Este drum de la Iasi pana la Bucuresti
+Locatia exista deja
+Dureaza 8.333333333333334 ore de la Iasi pana Bucuresti
+Iasi City 4.0 7.0
+Bucuresti Airport 10.0 14.0
+Location{name='Iasi', locationType='City', x=4.0, y=7.0}
+Location{name='Bacau', locationType='Airport', x=4.0, y=7.0}
