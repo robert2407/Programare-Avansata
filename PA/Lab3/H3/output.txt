@@ -1,0 +1,13 @@
+Robert are: 3 relatii cu celalte entitati.
+Robert 3 relationships
+Relationships -> Robert  {Microsoft=Partner, Bitdefender=Developer, Marius=Friend}
+Microsoft 2 relationships
+Employees for -> Microsoft  [Marius, Cristian]
+Marius 1 relationships
+Relationships -> Marius  {Microsoft=Manager}
+Cristian 1 relationships
+Relationships -> Cristian  {Microsoft=Designer}
+Bitdefender 1 relationships
+Employees for -> Bitdefender  [Robert]
+
+Process finished with exit code 0
