@@ -1,0 +1,8 @@
+[Lorg.example.Student;@58372a00
+[Lorg.example.Student;@4dd8dc3
+[Lorg.example.Student;@6d03e736
+Student S0, admissibleProjects null, assignedProject null}
+Student S1, admissibleProjects null, assignedProject null}
+Student S2, admissibleProjects null, assignedProject null}
+[Student S0, admissibleProjects null, assignedProject null}, Student S1, admissibleProjects null, assignedProject null}, Student S2, admissibleProjects null, assignedProject null}, Student S3, admissibleProjects null, assignedProject null}]
+[Project P0, Project P1, Project P2]
