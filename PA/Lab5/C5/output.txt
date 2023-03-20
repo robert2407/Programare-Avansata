@@ -1,0 +1,1 @@
+Catalog{nameOfDocs='MyDocuments', type='null', docs=[org.example.Document@7b23ec81]}
