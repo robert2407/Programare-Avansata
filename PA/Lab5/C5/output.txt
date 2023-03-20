@@ -1,0 +1,3 @@
+Catalog{nameOfDocs='MyDocuments', type='null', docs=[org.example.Document@7b23ec81, org.example.Document@6acbcfc0]}
+
+altfel eroare daca pathurile sunt gresite/ diferite
