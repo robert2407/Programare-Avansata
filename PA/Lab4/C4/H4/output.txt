@@ -1,0 +1,9 @@
+Proiecte ->
+[Project Bamity, Project Quo Lux, Project Solarbreeze]
+Studenti ->
+[Student Randell Gerlach, admissibleProjects [Project Quo Lux, Project Solarbreeze, Project Bamity], assignedProject null}, Student Yahaira Parker, admissibleProjects [Project Quo Lux, Project Solarbreeze, Project Bamity], assignedProject null}, Student Kenton Nienow, admissibleProjects [Project Quo Lux, Project Bamity], assignedProject null}]
+Studenti cu mai putine proiecte decat media ->
+Student Kenton Nienow, admissibleProjects [Project Quo Lux, Project Bamity], assignedProject null}
+Randell Gerlach are proiectul: Quo Lux
+Yahaira Parker are proiectul: Solarbreeze
+Kenton Nienow are proiectul: Bamity
