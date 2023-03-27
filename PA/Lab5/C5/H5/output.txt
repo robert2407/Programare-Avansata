@@ -1,4 +1,4 @@
-Catalog{nameOfDocs='MyDocuments', type='null', docs=[org.example.Document@34a245ab, org.example.Document@7cc355be]}
-Catalog{nameOfDocs='MyDocuments', type='null', docs=[org.example.Document@34a245ab, org.example.Document@7cc355be]}
-org.example.Document@34a245ab
-org.example.Document@7cc355be
+Catalog{nameOfDocs='MyDocuments', type='null', docs=[Document{id='12', title='book1', location='C:\Users\Robert\Desktop\Lab5', tags={table-row=<tr>}}, Document{id='13', title='article', location='C:\Users\Robert\Desktop\Lab5', tags={table-row=<tr>}}]}
+Catalog{nameOfDocs='MyDocuments', type='null', docs=[Document{id='12', title='book1', location='C:\Users\Robert\Desktop\Lab5', tags={table-row=<tr>}}, Document{id='13', title='article', location='C:\Users\Robert\Desktop\Lab5', tags={table-row=<tr>}}]}
+Document{id='12', title='book1', location='C:\Users\Robert\Desktop\Lab5', tags={table-row=<tr>}}
+Document{id='13', title='article', location='C:\Users\Robert\Desktop\Lab5', tags={table-row=<tr>}}
