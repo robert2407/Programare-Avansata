@@ -1,8 +1,5 @@
 package org.example;
 
-import org.example.Cell;
-
-import java.awt.*;
 import java.util.Arrays;
 
 public class ExplorationMap {
@@ -27,16 +24,17 @@ public class ExplorationMap {
         return false;
     }
 
-    public int[] getNewPosition() {
+    public int[] getNewPosition(int currentRow, int currentColoumn) {
         int n = matrix.length;
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (!matrix[i][j].isVisited()) {
-                    return new int[] {i, j};
+        int[] locationSelectedDirection = {-1, 0, 1};
+        for (int i : locationSelectedDirection) {
+            for (int j : locationSelectedDirection) {
+                if ((currentRow + i) >= 0 && (currentRow + i) < n && (currentColoumn + j) >= 0 && (currentColoumn + j) < n && !matrix[currentRow + i][currentColoumn + j].isVisited() && (i != 0 || j != 0)) //nu viziteaza aceasi celula de doua ori{
+                    return new int[] {currentRow + i, currentColoumn + j};
                 }
             }
         }
-        return null;
+        return null; // vizitate toate
     }
 
 
