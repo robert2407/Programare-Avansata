@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.Exploration;
 
+import java.util.Random;
+
 public class Robot implements Runnable {
     public String name;
     public boolean running;
@@ -16,13 +18,18 @@ public class Robot implements Runnable {
 
     @Override
     public void run() {
+        Random rand = new Random();
+        int n = explore.getMap().matrix.length;
+        int row = rand.nextInt(n);
+        int col = rand.nextInt(n);
         while (running) {
-            int[] newPos = explore.getMap().getNewPosition();
-            int row = newPos[0];
-            int col = newPos[1];
-
+            int[] newPos = explore.getMap().getNewPosition(row, col);
+            if (newPos == null) {
+                break;  //nu mai are vecini nevizitati
+            }
+            row = newPos[0];
+            col = newPos[1];
             explore.getMap().visit(row, col, this);
-
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
@@ -30,6 +37,8 @@ public class Robot implements Runnable {
             }
         }
     }
+
+
 
     public void start() {
         running = true;
