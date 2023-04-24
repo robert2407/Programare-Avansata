@@ -1,0 +1,17 @@
+Enter command (s = start, b = stop, p = pause, r = resume): p
+Robotul numarul ... pentru pauza (1-3): 2
+Enter command (s = start, b = stop, p = pause, r = resume): s
+Wall-E merge la 0-5
+Optimus Prime merge la 2-4
+R2D2 merge la 9-4
+Exploration time: 1 seconds
+Exploration time: 2 seconds
+Wall-E merge la 0-6
+Optimus Prime merge la 2-5
+R2D2 merge la 9-5
+Exploration time: 3 seconds
+Exploration time: 4 seconds
+Wall-E are 2 tokeni in matrice.
+R2D2 are 2 tokeni in matrice.
+Optimus Prime are 2 tokeni in matrice.
+Exploration time: 5 seconds
