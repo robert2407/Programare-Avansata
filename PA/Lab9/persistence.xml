@@ -6,9 +6,10 @@
              version="2.2">
  <persistence-unit name="MusicDB" transaction-type="RESOURCE_LOCAL">
   <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-  <provider>org.hibernate.ejb.HibernatePersistence</provider>
   <exclude-unlisted-classes>false</exclude-unlisted-classes>
   <properties>
+   <property name="eclipselink.logging.level" value="FINE"/>
+   <property name="eclipselink.logging.parameters" value="true"/>
    <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
    <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/MusicDB"/>
    <property name="javax.persistence.jdbc.user" value="postgres"/>
