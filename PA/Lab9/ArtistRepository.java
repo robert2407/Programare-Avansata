@@ -1,18 +1,13 @@
 package org.example;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityNotFoundException;
-import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
-import java.util.List;
+import jakarta.persistence.*;
 
 public class ArtistRepository {
 
     private static final EntityManagerFactory emf;
 
     static {
-        emf = Persistence.createEntityManagerFactory("ExamplePU");
+        emf = Persistence.createEntityManagerFactory("MusicDB");
     }
 
     public static EntityManager getEntityManager() {
@@ -29,6 +24,4 @@ public class ArtistRepository {
             em.close();
         }
     }
-
-
 }
