@@ -1,0 +1,19 @@
+[EL Fine]: server: 2023-05-08 16:24:40.486--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2023-05-08 16:24:40.611--ServerSession(26970580)--Thread(Thread[main,5,main])--The access type for the persistent class [class org.example.Genre] is set to [FIELD].
+[EL Config]: metadata: 2023-05-08 16:24:40.625--ServerSession(26970580)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field albums] is being defaulted to: class org.example.Album.
+[EL Config]: metadata: 2023-05-08 16:24:40.632--ServerSession(26970580)--Thread(Thread[main,5,main])--The access type for the persistent class [class org.example.Artist] is set to [FIELD].
+[EL Config]: metadata: 2023-05-08 16:24:40.632--ServerSession(26970580)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field albums] is being defaulted to: class org.example.Album.
+[EL Config]: metadata: 2023-05-08 16:24:40.632--ServerSession(26970580)--Thread(Thread[main,5,main])--The access type for the persistent class [class org.example.Album] is set to [FIELD].
+[EL Config]: metadata: 2023-05-08 16:24:40.633--ServerSession(26970580)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field artist] is being defaulted to: class org.example.Artist.
+[EL Config]: metadata: 2023-05-08 16:24:40.633--ServerSession(26970580)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to many mapping element [field genres] is being defaulted to: class org.example.Album.
+[EL Config]: metadata: 2023-05-08 16:24:40.634--ServerSession(26970580)--Thread(Thread[main,5,main])--The alias name for the entity class [class org.example.Genre] is being defaulted to: Genre.
+[EL Config]: metadata: 2023-05-08 16:24:40.647--ServerSession(26970580)--Thread(Thread[main,5,main])--The alias name for the entity class [class org.example.Artist] is being defaulted to: Artist.
+[EL Config]: metadata: 2023-05-08 16:24:40.648--ServerSession(26970580)--Thread(Thread[main,5,main])--The alias name for the entity class [class org.example.Album] is being defaulted to: Album.
+[EL Config]: metadata: 2023-05-08 16:24:40.655--ServerSession(26970580)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field artist] is being defaulted to: id.
+[EL Config]: metadata: 2023-05-08 16:24:40.655--ServerSession(26970580)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [artist] is being defaulted to: ARTIST_id.
+[EL Config]: metadata: 2023-05-08 16:24:40.662--ServerSession(26970580)--Thread(Thread[main,5,main])--The join table name for the many to many mapping [field genres] is being defaulted to: albums_albums.
+[EL Config]: metadata: 2023-05-08 16:24:40.663--ServerSession(26970580)--Thread(Thread[main,5,main])--The source primary key column name for the many to many mapping [field genres] is being defaulted to: id.
+[EL Config]: metadata: 2023-05-08 16:24:40.663--ServerSession(26970580)--Thread(Thread[main,5,main])--The source foreign key column name for the many to many mapping [genres] is being defaulted to: Album_id.
+[EL Config]: metadata: 2023-05-08 16:24:40.663--ServerSession(26970580)--Thread(Thread[main,5,main])--The target primary key column name for the many to many mapping [field genres] is being defaulted to: id.
+[EL Config]: metadata: 2023-05-08 16:24:40.663--ServerSession(26970580)--Thread(Thread[main,5,main])--The target foreign key column name for the many to many mapping [genres] is being defaulted to: genres_id.
+[EL Info]: 2023-05-08 16:24:40.788--ServerSession(26970580)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 4.0.1.v202302241130
