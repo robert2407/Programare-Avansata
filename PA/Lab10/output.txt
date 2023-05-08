@@ -1,0 +1,28 @@
+First output
+
+Server started on port 9999
+Waiting for clients...
+Client connected: kubernetes.docker.internal
+Waiting for clients...
+Server received the request: Mesaj test
+Client disconnected
+
+Mesaj test
+Server response: Server received the request: Mesaj test
+stop
+Server response: Server stopped
+
+Second output
+
+Server started on port 9999
+Waiting for clients...
+Client connected: kubernetes.docker.internal
+Waiting for clients...
+Server received the request: Mesaj test2
+Server received the request: exit
+Client disconnected
+
+Mesaj test2
+Server response: Server received the request: Mesaj test2
+exit
+Server response: Server received the request: exit
