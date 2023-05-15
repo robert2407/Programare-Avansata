@@ -1,1 +1,56 @@
+Server output:
+Server deschis la 9999
+Astept jucatori
+Client conectat kubernetes.docker.internal
+Astept jucatori
+Client conectat kubernetes.docker.internal
+Astept jucatori
+org.example.Player@25ca96f4 null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
 
+org.example.Player@25ca96f4 org.example.Player@195400e8 null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+null null null null null null null null null null null null null null null 
+
+A pus player 1 pe [0][0], apoi player 2 pe [0][1], iar dupa comanda a fost invalida. Daca se face legatura de 5 se rupe conexiunea si se afiseaza (de ex: Player 1 a castigat)
+
+Client 1:
+
+create
+Server response: Ai intrat. Esti jucatorul numarul 1
+move 0 0
+Server response: Mutare efectuata. Randul jucatorului -> 2
+moveeeee
+Server response: Comanda invalida
+
+Client 2:
+
+join
+Server response: Ai intrat. Esti jucatorul numarul 2
+move 0 1
+Server response: Mutare efectuata. Randul jucatorului -> 1
