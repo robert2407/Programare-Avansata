@@ -1,0 +1,4 @@
+Primul jucator -> John
+Al doilea jucator -> Alice
+Jucator eliminat
+Joc adaugat ->Chess, Data -> Tue May 22 15:12:34 EEST 2023, Score -> 100
