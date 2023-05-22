@@ -1,0 +1,11 @@
+Package: org.example
+
+Class: org.example.TestClass
+
+Methods:
+public void org.example.TestClass.test()
+public static void org.example.TestClass.testAdevarat()
+
+Running tests:
+e un test cu test
+Method: public static void org.example.TestClass.testAdevarat()
