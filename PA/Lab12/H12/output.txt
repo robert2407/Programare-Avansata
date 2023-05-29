@@ -1,0 +1,7 @@
+Test Statistics:
+Total tests: 2
+Successful tests: 2
+Failed tests: 0
+
+Am creat eu un .jar de test cu cele 2 clase facute la C12: Main.class si TestClass.class
+Comanda pe care am folosit-o: jar cvf Test2.jar Main.class TestClass.class
