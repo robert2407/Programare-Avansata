@@ -1,0 +1,21 @@
+Robert are: 3 relatii cu celalte entitati.
+Blocks:
+[Robert, Microsoft, Marius, Cristian, Bitdefender]
+Noduri care daca sunt eliminate, reteaua este compromisa:
+Robert
+Marius
+Cristian
+Bitdefender
+Microsoft
+Robert 3 relationships
+Relationships -> Robert  {Microsoft=Partner, Bitdefender=Developer, Marius=Friend}
+Microsoft 2 relationships
+Employees for -> Microsoft  [Marius, Cristian]
+Marius 1 relationships
+Relationships -> Marius  {Microsoft=Manager}
+Cristian 1 relationships
+Relationships -> Cristian  {Microsoft=Designer}
+Bitdefender 1 relationships
+Employees for -> Bitdefender  [Robert]
+
+Process finished with exit code 0
