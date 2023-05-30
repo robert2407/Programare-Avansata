@@ -1,0 +1,26 @@
+Distanta este suficient de mare: 9.219544457292887
+Distanta este suficient de mare: 8.602325267042627
+Distanta este suficient de mare: 1.0
+Location added successfully.
+Location added successfully.
+Road added successfully.
+Road added successfully.
+Best route from Iasi to Bucuresti:
+Iasi
+Bucuresti
+Arad
+Location added successfully.
+Location added successfully.
+Road added successfully.
+Road added successfully.
+Road added successfully.
+Este drum de la Iasi pana la Bucuresti
+Location already exists.
+true
+Dureaza 0.3333333333333333 ore de la Iasi pana Bucuresti
+Iasi cities 4.0 7.0
+Bucuresti airports 10.0 14.0
+Location{name='Iasi', type=cities, x=4.0, y=7.0}
+Location{name='Bacau', type=cities, x=4.0, y=7.0}
+Bacau la Bucuresti cu highways 20.0 60.0
+Road{from=Location{name='Bacau', type=cities, x=4.0, y=7.0}, to=Location{name='Bucuresti', type=airports, x=10.0, y=14.0}, type=highways, length=20.0, speed_Limit=60.0}
