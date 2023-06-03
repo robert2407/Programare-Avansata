@@ -1,0 +1,28 @@
+Class: org.example.JavaClassAnalyzer
+Methods:
+public static void main
+public static String getClassName
+public static void analyzeClasses
+public static void analyzeClassFile
+public static void analyzeClass
+public static boolean invokeTestMethod
+public static void analyzeAndPrintMethods
+public static void analyzeClassesDirectoryOrJar
+public static void printTestStatistics
+
+Class: org.example.Main
+Methods:
+public static void main
+
+Class: org.example.TestClass
+Methods:
+public void test
+public static void testAdevarat
+public void testAnalyze
+
+Test Statistics:
+Total tests: 2
+Successful tests: 2
+Failed tests: 0
+
+Process finished with exit code 0
