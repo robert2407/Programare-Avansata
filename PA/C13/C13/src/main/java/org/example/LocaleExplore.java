@@ -6,10 +6,11 @@ import java.util.Scanner;
 
 public class LocaleExplore {
     public static Locale currentLocale = Locale.getDefault();
+    public static ResourceBundle messages;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ResourceBundle messages = ResourceBundle.getBundle("res.Messages", currentLocale, LocaleExplore.class.getClassLoader());
+        loadResourceBundle();
 
         System.out.println(messages.getString("prompt"));
 
@@ -19,19 +20,25 @@ public class LocaleExplore {
                 break;
             }
 
-            executeCommand(command, messages);
+            executeCommand(command);
         }
     }
 
-    private static void executeCommand(String command, ResourceBundle messages) {
+    private static void executeCommand(String command) {
         if (command.equals("locales")) {
             DisplayLocales.displayLocales(messages);
         } else if (command.startsWith("locale.set ")) {
             SetLocale.setLocale(command, messages);
+            loadResourceBundle();
+            System.out.println(messages.getString("locale.set") + " " + currentLocale);
         } else if (command.equals("info")) {
             Info.displayInfo(currentLocale, messages);
         } else {
             System.out.println(messages.getString("invalid"));
         }
+    }
+
+    private static void loadResourceBundle() {
+        messages = ResourceBundle.getBundle("res.Messages", currentLocale);
     }
 }
