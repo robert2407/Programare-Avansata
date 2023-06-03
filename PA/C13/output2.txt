@@ -1,0 +1,45 @@
+Input command:
+info
+Information about {0}: en_US
+Country: United States
+Language: English
+Currency: USD
+Week Days: [, Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday]
+Months: [January, February, March, April, May, June, July, August, September, October, November, December, ]
+Today: June 3, 2023
+locale.set
+lUnknown command
+locale.set ro
+The current locale is {0} ro
+Localizarea curenta este {0} ro
+info
+Informatii despre localizarea {0}: ro
+Country: 
+Language: română
+Currency: Not found
+Week Days: [, duminică, luni, marți, miercuri, joi, vineri, sâmbătă]
+Months: [ianuarie, februarie, martie, aprilie, mai, iunie, iulie, august, septembrie, octombrie, noiembrie, decembrie, ]
+Today: 3 iunie 2023
+sdf
+Comanda necunoascuta
+cff
+Comanda necunoascuta
+info
+Informatii despre localizarea {0}: ro
+Country: 
+Language: română
+Currency: Not found
+Week Days: [, duminică, luni, marți, miercuri, joi, vineri, sâmbătă]
+Months: [ianuarie, februarie, martie, aprilie, mai, iunie, iulie, august, septembrie, octombrie, noiembrie, decembrie, ]
+Today: 3 iunie 2023
+loceales
+Comanda necunoascuta
+locales
+Localizarile disponibile sunt:
+
+he
+th_TH_#Thai
+nds
+tk_TM_#Latn
+....
+Si asa le pune pe toate...
